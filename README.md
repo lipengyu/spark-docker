@@ -11,17 +11,17 @@ Example on running spark on your mac (some parts below might differ for non-macs
 *This is the way to get the application to use the default ports as it should!*
 
 **boot2docker ip**
-*Tells you the localhost ip used by docker, let's call it '<'docker ip'>' here.* 
+*Tells you the localhost ip used by docker, let's call it docker-ip here.* 
 
 *What's up?*
-**http://<docker ip>:50070**
-**http://<docker ip>:8088**
+**http://docker-ip:50070**
+**http://docker-ip:8088**
 
 *In the container, do* **/usr/local/spark/sbin/start-all.sh**
-*Now look at* **http://<docker ip>:8080**
+*Now look at* **http://docker-ip:8080**
 
 *In the container, do* **/usr/local/spark/bin/spark-shell**
-*Now look at* **http://<docker ip>:4040**
+*Now look at* **http://docker-ip:4040**
 
 *Call spark from outside (really cool):*
 
