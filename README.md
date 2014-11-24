@@ -11,7 +11,7 @@ Example on running spark on your mac (some parts below might differ for non-macs
 *This is the way to get the application to use the default ports as it should!*
 
 **boot2docker ip**
-*Tells you the localhost ip used by docker, let's call it '<docker ip>' here.* 
+*Tells you the localhost ip used by docker, let's call it '<'docker ip'>' here.* 
 
 *What's up?*
 **http://<docker ip>:50070**
