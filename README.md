@@ -1,5 +1,5 @@
 # Spark in docker
-Example on running spark on your mac (some parts below might differ for non-macs, e.g. the need of using 'sudo' in front of everything), without too much work.
+Example running spark on your mac (some parts below might differ for non-macs, e.g. the need of using 'sudo' in front of everything), without too much work.
 
 *This works*
 
